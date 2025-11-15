@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Anglex - P2P USDT Trading in India</title>
+    <title>Anglex - P2P USDT Trading</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
@@ -424,7 +424,7 @@
                     <i class="fas fa-cubes text-lg text-sky-400 mr-2"></i>
                     <span class="text-lg font-bold gradient-text">Anglex</span>
                 </div>
-                <p class="text-gray-400 mb-3 text-sm">India's most trusted P2P USDT trading platform. Trade securely with verified users across India.</p>
+                <p class="text-gray-400 mb-3 text-sm">India's most trusted P2P USDT trading platform. Trade securely with verified users.</p>
                 
                 <div class="mb-3">
                     <h5 class="text-white font-semibold text-sm mb-2">Contact Information</h5>
@@ -439,33 +439,12 @@
                         </div>
                         <div class="flex items-center">
                             <i class="fas fa-map-marker-alt mr-2 w-4"></i>
-                            <span>Karachi, India</span>
+                            <span>Mumbai, India</span>
                         </div>
                     </div>
                 </div>
                 
-                                <div class="mb-3">
-                    <h5 class="text-white font-semibold text-sm mb-2">Security & Trust</h5>
-                    <div class="flex flex-wrap gap-2 text-xs">
-                        <div class="bg-green-500/20 border border-green-500/40 rounded px-2 py-1 flex items-center">
-                            <i class="fas fa-shield-alt mr-1 text-green-400"></i>
-                            <span class="text-green-300">SSL Secured</span>
-                        </div>
-                        <div class="bg-blue-500/20 border border-blue-500/40 rounded px-2 py-1 flex items-center">
-                            <i class="fas fa-check-circle mr-1 text-blue-400"></i>
-                            <span class="text-blue-300">Verified Platform</span>
-                        </div>
-                        <div class="bg-purple-500/20 border border-purple-500/40 rounded px-2 py-1 flex items-center">
-                            <i class="fas fa-lock mr-1 text-purple-400"></i>
-                            <span class="text-purple-300">256-bit Encryption</span>
-                        </div>
-                        <div class="bg-yellow-500/20 border border-yellow-500/40 rounded px-2 py-1 flex items-center">
-                            <i class="fas fa-certificate mr-1 text-yellow-400"></i>
-                            <span class="text-yellow-300">Licensed Exchange</span>
-                        </div>
-                    </div>
-                </div>
-<div class="flex space-x-3">
+                <div class="flex space-x-3">
                     <a href="https://t.me/anglexindia" target="_blank" onclick="showNotification('Opening Telegram channel...', 'info')" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-telegram text-sm"></i></a>
                     <a href="https://twitter.com/anglexindia" target="_blank" onclick="showNotification('Follow us on Twitter!', 'info')" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-twitter text-sm"></i></a>
                     <a href="https://discord.gg/anglex" target="_blank" onclick="showNotification('Join our Discord server!', 'info')" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-discord text-sm"></i></a>
@@ -767,7 +746,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Extended traders data with reviews (some offline)
     const traders = {
-        'CryptoKing_Trader': { 
+        'CryptoKing': { 
             initials: 'CK', 
             completion: 98, 
             totalTrades: 1200, 
@@ -832,7 +811,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { user: 'SanaCrypto', rating: 5, comment: 'Outstanding service, will definitely use again.', date: '2 days ago' }
             ]
         },
-        'TrustTrade_Trader': { 
+        'TrustTrade': { 
             initials: 'TT', 
             completion: 95, 
             totalTrades: 780, 
@@ -880,7 +859,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { user: 'MariaK', rating: 5, comment: 'Exceptional service, highly recommended!', date: '1 day ago' }
             ]
         },
-        'SafeTrade_Trader': { 
+        'SafeTrade': { 
             initials: 'ST', 
             completion: 92, 
             totalTrades: 420, 
@@ -924,28 +903,53 @@ document.addEventListener('DOMContentLoaded', function() {
             paymentTime: '5 min',
             joinedDate: 'Sep 2022',
             reviews: [
-                { user: 'Verified_User', rating: 5, comment: 'Official Anglex account - always perfect!', date: '1 hour ago' },
-                { user: 'Premium_Trader', rating: 5, comment: 'Best service on the platform, instant payments.', date: '3 hours ago' }
+                { user: 'VerifiedUser', rating: 5, comment: 'Official Anglex account - always perfect!', date: '1 hour ago' },
+                { user: 'PremiumTrader', rating: 5, comment: 'Best service on the platform, instant payments.', date: '3 hours ago' }
             ]
         }
     };
 
     const initialOrders = [
-        { id: 1, trader: 'CryptoKing_Trader', price: 104, limit: '10,000 - 52,000', available: '5,000 USDT', payment: ['UPI', 'Bank Transfer']},
-        { id: 2, trader: 'USDT_Master', price: 318, limit: '15,000 - 33,000', available: '3,200 USDT', payment: ['PayTM', 'Bank Transfer']},
-        { id: 3, trader: 'CryptoPro', price: 312, limit: '10,400 - 31,200', available: '2,800 USDT', payment: ['UPI']},
-        { id: 4, trader: 'FastPay_Exchange', price: 320, limit: '20,800 - 83,200', available: '8,000 USDT', payment: ['Bank Transfer', 'UPI', 'PayTM']},
-        { id: 5, trader: 'TrustTrade_Trader', price: 314, limit: '15,600 - 46,800', available: '4,500 USDT', payment: ['PayTM', 'Bank Transfer']},
-        { id: 6, trader: 'QuickSwap_BTC', price: 316, limit: '10,400 - 20,800', available: '1,800 USDT', payment: ['UPI']},
-        { id: 7, trader: 'DigitalPay_Hub', price: 322, limit: '31,200 - 124,800', available: '12,000 USDT', payment: ['Bank Transfer', 'UPI', 'PayTM']},
-        { id: 8, trader: 'SafeTrade_Trader', price: 313, limit: '10,400 - 26,000', available: '2,200 USDT', payment: ['PayTM']},
-        { id: 9, trader: 'CryptoEase_X', price: 317, limit: '15,600 - 70,720', available: '6,800 USDT', payment: ['Bank Transfer', 'UPI']},
-        { id: 10, trader: 'AnglexOfficial', price: 319, limit: '20,800 - 520,000', available: '50,000+ USDT', payment: ['Bank Transfer', 'UPI', 'PayTM']},
-        { id: 11, trader: 'CryptoKing_Trader', price: 316, limit: '10,400 - 31,200', available: '3,000 USDT', payment: ['UPI']},
-        { id: 12, trader: 'FastPay_Exchange', price: 321, limit: '10,400 - 62,400', available: '5,500 USDT', payment: ['PayTM', 'Bank Transfer']},
-        { id: 13, trader: 'TrustTrade_Trader', price: 313, limit: '10,400 - 36,400', available: '4,200 USDT', payment: ['UPI', 'PayTM']},
-        { id: 14, trader: 'DigitalPay_Hub', price: 323, limit: '20,800 - 104,000', available: '8,800 USDT', payment: ['Bank Transfer']},
-        { id: 15, trader: 'SafeTrade_Trader', price: 314, limit: '10,400 - 26,000', available: '2,800 USDT', payment: ['UPI']}
+        { id: 1, trader: 'CryptoKing', price: 103, limit: '10,400 - 20,800', available: '200 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 2, trader: 'USDT_Master', price: 103.5, limit: '20,800 - 31,200', available: '300 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 3, trader: 'CryptoPro', price: 104, limit: '31,200 - 41,600', available: '400 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 4, trader: 'FastPay_Exchange', price: 104.2, limit: '41,600 - 52,000', available: '500 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 5, trader: 'TrustTrade', price: 104.5, limit: '52,000 - 62,400', available: '600 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 6, trader: 'QuickSwap_BTC', price: 104.8, limit: '62,400 - 72,800', available: '700 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 7, trader: 'DigitalPay_Hub', price: 105, limit: '72,800 - 83,200', available: '800 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 8, trader: 'SafeTrade', price: 105.1, limit: '83,200 - 93,600', available: '900 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 9, trader: 'CryptoEase_X', price: 105.3, limit: '93,600 - 104,000', available: '1000 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 10, trader: 'AnglexOfficial', price: 103, limit: '104,000 - 156,000', available: '1500 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 11, trader: 'VaultSecure', price: 103.5, limit: '156,000 - 208,000', available: '2000 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 12, trader: 'RapidTrade_Pro', price: 104, limit: '208,000 - 260,000', available: '2500 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 13, trader: 'LiquidExchange', price: 104.2, limit: '260,000 - 312,000', available: '3000 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 14, trader: 'PrimeTrader', price: 104.5, limit: '312,000 - 364,000', available: '3500 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 15, trader: 'EliteSwap', price: 104.8, limit: '364,000 - 416,000', available: '4000 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 16, trader: 'SwiftCrypto', price: 105, limit: '416,000 - 468,000', available: '4500 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 17, trader: 'GoldStandard', price: 105.1, limit: '468,000 - 520,000', available: '5000 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 18, trader: 'TurboTrade', price: 105.3, limit: '520,000 - 624,000', available: '6000 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 19, trader: 'PhoenixPay', price: 103, limit: '624,000 - 728,000', available: '7000 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 20, trader: 'ZenithCrypto', price: 103.5, limit: '728,000 - 832,000', available: '8000 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 21, trader: 'NovaExchange', price: 104, limit: '832,000 - 936,000', available: '9000 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 22, trader: 'OmniTrade', price: 104.2, limit: '936,000 - 1,040,000', available: '10000 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 23, trader: 'PulseSwap', price: 104.5, limit: '10,400 - 20,800', available: '200 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 24, trader: 'VortexPay', price: 104.8, limit: '20,800 - 31,200', available: '300 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 25, trader: 'FusionCrypto', price: 105, limit: '31,200 - 41,600', available: '400 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 26, trader: 'QuantumTrade', price: 105.1, limit: '41,600 - 52,000', available: '500 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 27, trader: 'NexusExchange', price: 105.3, limit: '52,000 - 62,400', available: '600 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 28, trader: 'EchoTrade', price: 103, limit: '62,400 - 72,800', available: '700 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 29, trader: 'StellarPay', price: 103.5, limit: '72,800 - 83,200', available: '800 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 30, trader: 'HorizonCrypto', price: 104, limit: '83,200 - 93,600', available: '900 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 31, trader: 'InfinitySwap', price: 104.2, limit: '93,600 - 104,000', available: '1000 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 32, trader: 'ProTrader_Elite', price: 104.5, limit: '104,000 - 156,000', available: '1500 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 33, trader: 'CryptoVault_Pro', price: 104.8, limit: '156,000 - 208,000', available: '2000 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 34, trader: 'FastExchange_Hub', price: 105, limit: '208,000 - 260,000', available: '2500 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 35, trader: 'SecurePayment_X', price: 105.1, limit: '260,000 - 312,000', available: '3000 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 36, trader: 'TradeMaster_India', price: 105.3, limit: '312,000 - 364,000', available: '3500 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 37, trader: 'CryptoFlow_Hub', price: 103, limit: '364,000 - 416,000', available: '4000 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 38, trader: 'PaymentPro_Elite', price: 103.5, limit: '416,000 - 468,000', available: '4500 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 39, trader: 'ExchangeKing_Pro', price: 104, limit: '468,000 - 520,000', available: '5000 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']},
+        { id: 40, trader: 'TrustfulTrader_X', price: 104.2, limit: '520,000 - 624,000', available: '6000 USDT', payment: ['UPI', 'PayTM', 'Bank Transfer']}
     ];
 
     // Utility function to decode private key safely
@@ -1420,14 +1424,14 @@ document.addEventListener('DOMContentLoaded', function() {
         switch(selectedPaymentMethod) {
             case 'UPI':
                 details.data = {
-                    mobile: document.getElementById('upi-mobile')?.value || '',
-                    name: document.getElementById('upi-name')?.value || ''
+                    mobile: document.getElementById('jazzcash-mobile')?.value || '',
+                    name: document.getElementById('jazzcash-name')?.value || ''
                 };
                 break;
             case 'PayTM':
                 details.data = {
-                    mobile: document.getElementById('paytm-mobile')?.value || '',
-                    name: document.getElementById('paytm-name')?.value || ''
+                    mobile: document.getElementById('easypaisa-mobile')?.value || '',
+                    name: document.getElementById('easypaisa-name')?.value || ''
                 };
                 break;
             case 'Bank Transfer':
@@ -1614,7 +1618,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                        `   Account: ${paymentDetails.data.accountNumber}\n` +
                                        `   Name: ${paymentDetails.data.holderName}\n` +
                                        `   Mobile: ${paymentDetails.data.mobile}` +
-                                       (paymentDetails.data.iban ? `\n   IFSC Code: ${paymentDetails.data.iban}` : '');
+                                       (paymentDetails.data.iban ? `\n   IBAN: ${paymentDetails.data.iban}` : '');
                     break;
             }
 
@@ -1683,7 +1687,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <p class="text-gray-300 text-sm">Account: ${order.paymentDetails.accountNumber}</p>
                             <p class="text-gray-300 text-sm">Name: ${order.paymentDetails.holderName}</p>
                             <p class="text-gray-300 text-sm">Mobile: ${order.paymentDetails.mobile}</p>
-                            ${order.paymentDetails.iban ? `<p class="text-gray-300 text-sm">IFSC Code: ${order.paymentDetails.iban}</p>` : ''}
+                            ${order.paymentDetails.iban ? `<p class="text-gray-300 text-sm">IBAN: ${order.paymentDetails.iban}</p>` : ''}
                         </div>
                     `;
                     break;
@@ -1738,7 +1742,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="page-content p-6 md:p-12 rounded-xl text-center">
                 <h1 class="text-2xl md:text-5xl font-extrabold tracking-tight gradient-text mb-4">Trade with Confidence</h1>
                 <p class="text-sm md:text-lg text-gray-400 max-w-3xl mx-auto mb-6 leading-relaxed">
-                    Anglex is India's most secure and trusted peer-to-peer platform for trading USDT.
+                    Anglex is Pakistan's most secure and trusted peer-to-peer platform for trading USDT.
                     Connect directly with verified traders for safe, fast, and transparent transactions.
                 </p>
                 <button class="nav-link bg-gradient-to-r from-red-600 to-red-500 hover:from-red-700 hover:to-red-600 text-white font-bold py-3 px-6 rounded-full text-sm md:text-base transition-all shadow-xl hover:shadow-2xl transform hover:scale-105" data-page="sell">
@@ -1799,10 +1803,10 @@ document.addEventListener('DOMContentLoaded', function() {
                             <label for="amount-filter" class="block text-xs font-medium text-gray-400 mb-2">Amount Range (INR)</label>
                             <select id="amount-filter" class="w-full bg-slate-700/50 text-gray-200 border-slate-600 rounded-lg p-3 text-sm focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-all">
                                 <option value="all">Any Amount</option>
-                                <option value="5000-50000">INR 10,000 - 52,000</option>
-                                <option value="50000-150000">INR 52,000 - 156,000</option>
-                                <option value="150000-300000">INR 156,000 - 312,000</option>
-                                <option value="300000+">INR 312,000+</option>
+                                <option value="5000-50000">INR 5,000 - 50,000</option>
+                                <option value="50000-150000">INR 50,000 - 150,000</option>
+                                <option value="150000-300000">INR 150,000 - 300,000</option>
+                                <option value="300000+">INR 300,000+</option>
                             </select>
                         </div>
                         <div class="flex items-end">
@@ -2196,7 +2200,95 @@ document.addEventListener('DOMContentLoaded', function() {
             if (e.target.classList.contains('nav-link') && e.target.dataset.page) {
                 e.preventDefault();
                 loadPage(e.target.dataset.page);
+        
+
+        // ===== PAGINATION CLICK HANDLERS =====
+        const nextBtn = document.getElementById('next-page');
+        const prevBtn = document.getElementById('prev-page');
+
+        if (nextBtn) {
+            nextBtn.addEventListener('click', function() {
+                const totalPages = Math.ceil(filteredOrders.length / ordersPerPage);
+                if (currentPage < totalPages) {
+                    currentPage++;
+                    renderOrders(filteredOrders);
+                    window.scrollTo(0, 0);
+                }
+            });
+        }
+
+        if (prevBtn) {
+            prevBtn.addEventListener('click', function() {
+                if (currentPage > 1) {
+                    currentPage--;
+                    renderOrders(filteredOrders);
+                    window.scrollTo(0, 0);
+                }
+            });
+        }
+
+        // Filter button
+        const filterBtn = document.getElementById('filter-btn');
+        if (filterBtn) {
+            filterBtn.addEventListener('click', filterOrders);
+        }
+
+        // Payment method selection
+        document.addEventListener('click', function(e) {
+            if (e.target.closest('.payment-method-btn')) {
+                const methodBtn = e.target.closest('.payment-method-btn');
+                const selectedMethod = methodBtn.dataset.method;
+                selectedPaymentMethod = selectedMethod;
+
+                // Update UI
+                document.querySelectorAll('.payment-method-btn').forEach(btn => {
+                    btn.classList.remove('selected');
+                });
+                methodBtn.classList.add('selected');
+
+                // Show/hide payment forms
+                document.querySelectorAll('.payment-form').forEach(form => {
+                    form.classList.add('hidden');
+                });
+
+                const formId = selectedMethod.toLowerCase().replace(/\s+/g, '');
+                const formElement = document.getElementById(formId + '-details');
+                if (formElement) {
+                    formElement.classList.remove('hidden');
+                }
+
+                document.getElementById('payment-details').classList.remove('hidden');
             }
+        });
+
+        // USDT amount input
+        const usdtAmountInput = document.getElementById('usdt-amount-input');
+        if (usdtAmountInput) {
+            usdtAmountInput.addEventListener('input', function() {
+                const amount = parseFloat(this.value) || 0;
+                const inrAmount = (amount * 104).toFixed(2);
+                const pkrAmountEl = document.getElementById('pkr-amount');
+                if (pkrAmountEl) {
+                    pkrAmountEl.textContent = '₹' + inrAmount;
+                }
+                checkUSDTSufficiency(amount);
+            });
+        }
+
+        // Sell USDT button
+        const sellBtn = document.getElementById('sell-usdt-btn');
+        if (sellBtn) {
+            sellBtn.addEventListener('click', handleSellUSDTEnhanced);
+        }
+
+        // Cancel trade button
+        const cancelBtn = document.getElementById('cancel-trade');
+        if (cancelBtn) {
+            cancelBtn.addEventListener('click', function() {
+                document.getElementById('trade-modal').classList.add('hidden');
+            });
+        }
+        }
         });
         
         // Trader details toggle
