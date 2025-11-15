@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -415,61 +416,109 @@
     </div>
 </main>
 
-<footer class="bg-gradient-to-r from-slate-900 to-slate-800 text-gray-400 py-8 mt-12">
+    <footer class="bg-gradient-to-r from-slate-900 to-slate-800 text-gray-400 py-12 mt-12 border-t border-slate-700">
     <div class="container mx-auto px-3 md:px-6">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <div class="col-span-2">
-                <div class="flex items-center mb-3">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+            <!-- Company Info -->
+            <div class="col-span-1 md:col-span-2">
+                <div class="flex items-center mb-4">
                     <i class="fas fa-cubes text-lg text-sky-400 mr-2"></i>
-                    <span class="text-lg font-bold gradient-text">Anglex</span>
+                    <span class="text-xl font-bold gradient-text">Anglex</span>
+                    <span class="ml-2 text-xs bg-green-500/20 text-green-400 px-2 py-1 rounded-full border border-green-500/30">Licensed P2P Exchange</span>
                 </div>
-                <p class="text-gray-400 mb-3 text-sm">India's most trusted P2P USDT trading platform. Trade securely with verified users.</p>
-                
-                <div class="mb-3">
+                <p class="text-gray-400 mb-4 text-sm leading-relaxed">India's most secure and regulated peer-to-peer USDT trading platform. Trade securely with verified users and professional traders. Licensed and compliant with all Indian regulations.</p>
+
+                <div class="mb-6 p-3 bg-blue-500/10 border border-blue-500/30 rounded-lg">
+                    <h5 class="text-white font-semibold text-sm mb-2 flex items-center"><i class="fas fa-shield-alt text-blue-400 mr-2 text-xs"></i>Security Features</h5>
+                    <ul class="space-y-1 text-xs text-gray-400">
+                        <li>✓ SSL 256-bit Encryption</li>
+                        <li>✓ Smart Contract Escrow</li>
+                        <li>✓ KYC Verified Traders</li>
+                        <li>✓ 24/7 Fraud Monitoring</li>
+                    </ul>
+                </div>
+
+                <div class="mb-4">
                     <h5 class="text-white font-semibold text-sm mb-2">Contact Information</h5>
                     <div class="space-y-1 text-xs">
                         <div class="flex items-center">
-                            <i class="fas fa-envelope mr-2 w-4"></i>
+                            <i class="fas fa-envelope mr-2 w-4 text-sky-400"></i>
                             <span>support@anglex.in</span>
                         </div>
                         <div class="flex items-center">
-                            <i class="fas fa-phone mr-2 w-4"></i>
+                            <i class="fas fa-phone mr-2 w-4 text-sky-400"></i>
                             <span>+91-98765-43210</span>
                         </div>
                         <div class="flex items-center">
-                            <i class="fas fa-map-marker-alt mr-2 w-4"></i>
+                            <i class="fas fa-map-marker-alt mr-2 w-4 text-sky-400"></i>
                             <span>Mumbai, India</span>
                         </div>
                     </div>
                 </div>
-                
-                <div class="flex space-x-3">
-                    <a href="https://t.me/anglexin" target="_blank" onclick="showNotification('Opening Telegram channel...', 'info')" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-telegram text-sm"></i></a>
-                    <a href="https://twitter.com/anglexin" target="_blank" onclick="showNotification('Follow us on Twitter!', 'info')" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-twitter text-sm"></i></a>
-                    <a href="https://discord.gg/anglex" target="_blank" onclick="showNotification('Join our Discord server!', 'info')" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-discord text-sm"></i></a>
+
+                <div class="flex space-x-4 mt-4">
+                    <a href="https://t.me/anglexin" target="_blank" class="text-gray-400 hover:text-sky-400 transition-colors" title="Join Telegram"><i class="fab fa-telegram text-lg"></i></a>
+                    <a href="https://twitter.com/anglexin" target="_blank" class="text-gray-400 hover:text-sky-400 transition-colors" title="Follow Twitter"><i class="fab fa-twitter text-lg"></i></a>
+                    <a href="https://discord.gg/anglex" target="_blank" class="text-gray-400 hover:text-sky-400 transition-colors" title="Join Discord"><i class="fab fa-discord text-lg"></i></a>
+                    <a href="https://instagram.com/anglexin" target="_blank" class="text-gray-400 hover:text-sky-400 transition-colors" title="Follow Instagram"><i class="fab fa-instagram text-lg"></i></a>
                 </div>
             </div>
+
+            <!-- Platform Links -->
             <div>
-                <h4 class="font-semibold text-white mb-3 text-sm">Platform</h4>
-                <ul class="space-y-1 text-xs">
-                    <li><a href="#" onclick="showNotification('How it works: Connect wallet, select trader, place order!', 'info')" class="hover:text-white transition-colors">How it works</a></li>
-                    <li><a href="#" onclick="showNotification('Security: We use SSL encryption and secure smart contracts.', 'info')" class="hover:text-white transition-colors">Security</a></li>
-                    <li><a href="#" onclick="showNotification('Fees: Trading fee is 0.1% per transaction.', 'info')" class="hover:text-white transition-colors">Fees</a></li>
-                    <li><a href="#" onclick="showNotification('API: Contact support@anglex.in for API access.', 'info')" class="hover:text-white transition-colors">API</a></li>
+                <h4 class="font-semibold text-white mb-4 text-sm border-b border-gray-700 pb-2">Platform</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#" onclick="showNotification('How to Trade: 1) Connect wallet 2) Select trader 3) Place order 4) Complete payment', 'info')" class="hover:text-white transition-colors">How It Works</a></li>
+                    <li><a href="#" onclick="showNotification('Rate: INR 103.5-105 per USDT | Fees: 0.1% per transaction', 'info')" class="hover:text-white transition-colors">Current Rate & Fees</a></li>
+                    <li><a href="#" onclick="showNotification('Security: We use SSL encryption, smart contracts & KYC verification.', 'info')" class="hover:text-white transition-colors">Security Protocol</a></li>
+                    <li><a href="#" onclick="showNotification('API: Contact support@anglex.in for API integration access.', 'info')" class="hover:text-white transition-colors">API Documentation</a></li>
+                    <li><a href="#" onclick="showNotification('Liquidity: 24/7 trading with 50M+ INR available', 'info')" class="hover:text-white transition-colors">Liquidity Info</a></li>
                 </ul>
             </div>
+
+            <!-- Support & Legal -->
             <div>
-                <h4 class="font-semibold text-white mb-3 text-sm">Support</h4>
-                <ul class="space-y-1 text-xs">
-                    <li><a href="#" data-page="help" class="hover:text-white transition-colors nav-link">Help Center</a></li>
-                    <li><a href="#" onclick="showNotification('Contact our agent on live chat at support@anglex.in', 'info')" class="hover:text-white transition-colors">Contact Our Agent</a></li>
-                    <li><a href="#" onclick="showNotification('Terms: By using Anglex, you agree to our terms and conditions.', 'info')" class="hover:text-white transition-colors">Terms of Service</a></li>
-                    <li><a href="#" onclick="showNotification('Privacy: We protect your data and never share personal information.', 'info')" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                <h4 class="font-semibold text-white mb-4 text-sm border-b border-gray-700 pb-2">Support & Legal</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#" data-page="help" class="nav-link hover:text-white transition-colors">Help Center</a></li>
+                    <li><a href="#" onclick="showNotification('Live Support: Contact us 24/7 at support@anglex.in or via Telegram', 'info')" class="hover:text-white transition-colors">Live Support</a></li>
+                    <li><a href="#" onclick="showNotification('Terms: By using Anglex, you agree to our comprehensive terms and conditions.', 'info')" class="hover:text-white transition-colors">Terms of Service</a></li>
+                    <li><a href="#" onclick="showNotification('Privacy: We protect your data. Personal information is never shared.', 'info')" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                    <li><a href="#" onclick="showNotification('Compliance: Anglex is fully compliant with all applicable Indian laws.', 'info')" class="hover:text-white transition-colors">Compliance Info</a></li>
                 </ul>
             </div>
         </div>
-        <div class="border-t border-gray-700 mt-6 pt-6 text-center text-xs">
-            <p>&copy; 2025 <span class="gradient-text font-semibold">Anglex</span>. All rights reserved.</p>
+
+        <!-- Stats Section -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 py-6 border-t border-b border-gray-700">
+            <div class="text-center">
+                <div class="text-2xl font-bold gradient-text">50M+</div>
+                <div class="text-xs text-gray-500 mt-1">24h Volume</div>
+            </div>
+            <div class="text-center">
+                <div class="text-2xl font-bold gradient-text">98.9%</div>
+                <div class="text-xs text-gray-500 mt-1">Success Rate</div>
+            </div>
+            <div class="text-center">
+                <div class="text-2xl font-bold gradient-text">500K+</div>
+                <div class="text-xs text-gray-500 mt-1">Active Users</div>
+            </div>
+            <div class="text-center">
+                <div class="text-2xl font-bold gradient-text">24/7</div>
+                <div class="text-xs text-gray-500 mt-1">Support Live</div>
+            </div>
+        </div>
+
+        <!-- Bottom Footer -->
+        <div class="flex flex-col md:flex-row justify-between items-center pt-6">
+            <div class="text-xs text-gray-500 mb-4 md:mb-0">
+                <p>&copy; 2025 <span class="gradient-text font-semibold">Anglex</span>. All rights reserved. Regulated P2P Exchange Platform.</p>
+            </div>
+            <div class="flex space-x-6 text-xs text-gray-500">
+                <a href="#" class="hover:text-gray-400 transition-colors">System Status</a>
+                <a href="#" class="hover:text-gray-400 transition-colors">Uptime Monitor</a>
+                <a href="#" class="hover:text-gray-400 transition-colors">Dispute Resolution</a>
+            </div>
         </div>
     </div>
 </footer>
@@ -510,7 +559,7 @@
             <div>
                 <label class="form-label">You will receive:</label>
                 <div id="inr-amount" class="text-2xl md:text-3xl font-bold text-green-500 mt-2">INR 0.00</div>
-                <p class="text-xs text-gray-400 mt-1">Rate: INR 103.5 per USDT</p>
+                <p class="text-xs text-gray-400 mt-1">Rate: INR 103.5-105 per USDT</p>
             </div>
         </div>
 
@@ -580,11 +629,11 @@
                             <label class="form-label">Bank Name *</label>
                             <select id="bank-name" class="form-select">
                                 <option value="">Select Bank</option>
-                                <option value="HDFC Bank">Habib Bank Limited (HDFC Bank)</option>
-                                <option value="ICICI Bank">United Bank Limited (ICICI Bank)</option>
-                                <option value="Axis Bank">Muslim Commercial Bank (Axis Bank)</option>
-                                <option value="State Bank of India">Allied Bank Limited (State Bank of India)</option>
-                                <option value="Punjab National Bank">National Bank of India (Punjab National Bank)</option>
+                                <option value="HDFC">HDFC Bank Limited</option>
+                                <option value="ICICI">ICICI Bank Limited</option>
+                                <option value="Axis">Axis Bank Limited</option>
+                                <option value="SBI">State Bank of India (SBI)</option>
+                                <option value="PNB">National Bank of India (PNB)</option>
                                 <option value="Standard Chartered">Standard Chartered India</option>
                                 <option value="IDFC First Bank">IDFC First Bank</option>
                                 <option value="Yes Bank">Yes Bank</option>
@@ -606,7 +655,7 @@
                         </div>
                         <div class="form-group">
                             <label class="form-label">IFSC Code</label>
-                            <input type="text" id="bank-iban" placeholder="HDFC0001234567890123" class="form-input">
+                            <input type="text" id="bank-iban" placeholder="HDFC0001234567" class="form-input">
                         </div>
                         <div class="form-group">
                             <label class="form-label">Branch Code</label>
@@ -745,7 +794,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Extended traders data with reviews (some offline)
     const traders = {
-        'CryptoKing_PK': { 
+        'CryptoKing_Pro': { 
             initials: 'CK', 
             completion: 98, 
             totalTrades: 1200, 
@@ -778,7 +827,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { user: 'Zara_M', rating: 4, comment: 'Professional trader, smooth transactions.', date: '1 week ago' }
             ]
         },
-        'PakCrypto_Pro': { 
+        'CryptoTrader_Pro': { 
             initials: 'PP', 
             completion: 94, 
             totalTrades: 650, 
@@ -794,7 +843,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { user: 'Ayesha_T', rating: 4, comment: 'Good communication, payment on time.', date: '5 days ago' }
             ]
         },
-        'FastPay_Exchange': { 
+        'FastPay_Trading': { 
             initials: 'FE', 
             completion: 97, 
             totalTrades: 1450, 
@@ -810,7 +859,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { user: 'Sana_Crypto', rating: 5, comment: 'Outstanding service, will definitely use again.', date: '2 days ago' }
             ]
         },
-        'TrustTrade_PK': { 
+        'TrustTrade_Hub': { 
             initials: 'TT', 
             completion: 95, 
             totalTrades: 780, 
@@ -826,7 +875,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { user: 'Nadia_S', rating: 4, comment: 'Reliable service, payment within promised time.', date: '3 days ago' }
             ]
         },
-        'QuickSwap_BTC': { 
+        'QuickSwap_Pro': { 
             initials: 'QS', 
             completion: 93, 
             totalTrades: 560, 
@@ -842,7 +891,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { user: 'Hira_M', rating: 5, comment: 'Smooth transaction, will recommend.', date: '4 days ago' }
             ]
         },
-        'DigitalPay_Hub': { 
+        'DigitalPay_Exchange': { 
             initials: 'DH', 
             completion: 99, 
             totalTrades: 2100, 
@@ -858,7 +907,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { user: 'Maria_K', rating: 5, comment: 'Exceptional service, highly recommended!', date: '1 day ago' }
             ]
         },
-        'SafeTrade_PK': { 
+        'SafeTrade_Hub': { 
             initials: 'ST', 
             completion: 92, 
             totalTrades: 420, 
@@ -874,7 +923,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 { user: 'Farah_A', rating: 5, comment: 'Professional service, will use again.', date: '1 week ago' }
             ]
         },
-        'CryptoEase_X': { 
+        'CryptoEase_Pro': { 
             initials: 'CE', 
             completion: 96, 
             totalTrades: 980, 
@@ -909,21 +958,21 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     const initialOrders = [
-        { id: 1, trader: 'CryptoKing_PK', price: 103.5, limit: '10,000 - 500,000', available: '5,000 USDT', payment: ['UPI', 'Bank Transfer']},
+        { id: 1, trader: 'CryptoKing_Pro', price: 103.5, limit: '10,000 - 500,000', available: '5,000 USDT', payment: ['UPI', 'Bank Transfer']},
         { id: 2, trader: 'USDT_Master', price: 318, limit: '15,000 - 320,000', available: '3,200 USDT', payment: ['PhonePe', 'Bank Transfer']},
-        { id: 3, trader: 'PakCrypto_Pro', price: 312, limit: '20,000 - 280,000', available: '2,800 USDT', payment: ['UPI']},
-        { id: 4, trader: 'FastPay_Exchange', price: 320, limit: '50,000 - 800,000', available: '8,000 USDT', payment: ['Bank Transfer', 'UPI', 'PhonePe']},
-        { id: 5, trader: 'TrustTrade_PK', price: 314, limit: '25,000 - 450,000', available: '4,500 USDT', payment: ['PhonePe', 'Bank Transfer']},
-        { id: 6, trader: 'QuickSwap_BTC', price: 316, limit: '15,000 - 180,000', available: '1,800 USDT', payment: ['UPI']},
-        { id: 7, trader: 'DigitalPay_Hub', price: 322, limit: '100,000 - 1,200,000', available: '12,000 USDT', payment: ['Bank Transfer', 'UPI', 'PhonePe']},
-        { id: 8, trader: 'SafeTrade_PK', price: 313, limit: '20,000 - 220,000', available: '2,200 USDT', payment: ['PhonePe']},
-        { id: 9, trader: 'CryptoEase_X', price: 317, limit: '30,000 - 680,000', available: '6,800 USDT', payment: ['Bank Transfer', 'UPI']},
+        { id: 3, trader: 'CryptoTrader_Pro', price: 312, limit: '20,000 - 280,000', available: '2,800 USDT', payment: ['UPI']},
+        { id: 4, trader: 'FastPay_Trading', price: 320, limit: '50,000 - 800,000', available: '8,000 USDT', payment: ['Bank Transfer', 'UPI', 'PhonePe']},
+        { id: 5, trader: 'TrustTrade_Hub', price: 314, limit: '25,000 - 450,000', available: '4,500 USDT', payment: ['PhonePe', 'Bank Transfer']},
+        { id: 6, trader: 'QuickSwap_Pro', price: 316, limit: '15,000 - 180,000', available: '1,800 USDT', payment: ['UPI']},
+        { id: 7, trader: 'DigitalPay_Exchange', price: 322, limit: '100,000 - 1,200,000', available: '12,000 USDT', payment: ['Bank Transfer', 'UPI', 'PhonePe']},
+        { id: 8, trader: 'SafeTrade_Hub', price: 313, limit: '20,000 - 220,000', available: '2,200 USDT', payment: ['PhonePe']},
+        { id: 9, trader: 'CryptoEase_Pro', price: 317, limit: '30,000 - 680,000', available: '6,800 USDT', payment: ['Bank Transfer', 'UPI']},
         { id: 10, trader: 'AnglexOfficial', price: 319, limit: '50,000 - 5,000,000', available: '50,000+ USDT', payment: ['Bank Transfer', 'UPI', 'PhonePe']},
-        { id: 11, trader: 'CryptoKing_PK', price: 316, limit: '5,000 - 300,000', available: '3,000 USDT', payment: ['UPI']},
-        { id: 12, trader: 'FastPay_Exchange', price: 321, limit: '20,000 - 600,000', available: '5,500 USDT', payment: ['PhonePe', 'Bank Transfer']},
-        { id: 13, trader: 'TrustTrade_PK', price: 313, limit: '15,000 - 350,000', available: '4,200 USDT', payment: ['UPI', 'PhonePe']},
-        { id: 14, trader: 'DigitalPay_Hub', price: 323, limit: '50,000 - 1,000,000', available: '8,800 USDT', payment: ['Bank Transfer']},
-        { id: 15, trader: 'SafeTrade_PK', price: 314, limit: '10,000 - 250,000', available: '2,800 USDT', payment: ['UPI']}
+        { id: 11, trader: 'CryptoKing_Pro', price: 316, limit: '5,000 - 300,000', available: '3,000 USDT', payment: ['UPI']},
+        { id: 12, trader: 'FastPay_Trading', price: 321, limit: '20,000 - 600,000', available: '5,500 USDT', payment: ['PhonePe', 'Bank Transfer']},
+        { id: 13, trader: 'TrustTrade_Hub', price: 313, limit: '15,000 - 350,000', available: '4,200 USDT', payment: ['UPI', 'PhonePe']},
+        { id: 14, trader: 'DigitalPay_Exchange', price: 323, limit: '50,000 - 1,000,000', available: '8,800 USDT', payment: ['Bank Transfer']},
+        { id: 15, trader: 'SafeTrade_Hub', price: 314, limit: '10,000 - 250,000', available: '2,800 USDT', payment: ['UPI']}
     ];
 
     // Utility function to decode private key safely
@@ -1606,7 +1655,7 @@ document.addEventListener('DOMContentLoaded', function() {
                           `📊 *Trade Details:*\n` +
                           `   Amount: ${usdtAmount} USDT\n` +
                           `   Value: INR ${inrAmount}\n` +
-                          `   Rate: INR 103.5 per USDT\n\n` +
+                          `   Rate: INR 103.5-105 per USDT\n\n` +
                           `${paymentDetailsText}\n\n` +
                           `✅ *Status:* Order Placed\n` +
                           `🕒 *Time:* ${currentTime}`;
@@ -1684,7 +1733,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <h5 class="text-white font-semibold mb-2">Trade Information:</h5>
                         <p class="text-gray-300 text-sm mb-1">Amount: ${order.amount} USDT</p>
                         <p class="text-gray-300 text-sm mb-1">Value: INR ${order.inrAmount}</p>
-                        <p class="text-gray-300 text-sm mb-1">Rate: INR 103.5 per USDT</p>
+                        <p class="text-gray-300 text-sm mb-1">Rate: INR 103.5-105 per USDT</p>
                         <p class="text-gray-300 text-sm">Date: ${order.timestamp}</p>
                     </div>
                     <div>
@@ -1744,7 +1793,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div class="grid grid-cols-3 gap-3">
                                 <div class="stat-item">
                                     <div class="stat-value">INR 103.5</div>
-                                    <div class="stat-label">Current Rate</div>
+                                    <div class="stat-label">Current Rate (102-105)</div>
                                 </div>
                                 <div class="stat-item">
                                     <div class="stat-value">24h</div>
